@@ -168,6 +168,7 @@ td.n{font-family:var(--display);font-weight:700;color:var(--muted)}
 
 footer{margin-top:72px;border-top:1px solid var(--line);padding-block:32px;color:var(--muted);font-size:.9rem}
 footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+footer .flinks{display:flex;flex-wrap:wrap;gap:4px 18px;flex-basis:100%;order:3}footer .flinks a{color:var(--muted);text-decoration:none;padding:6px 0}footer .flinks a:hover,footer .flinks a:focus-visible{color:var(--cyan);text-decoration:underline}
 
 /* modal player */
 .modal{position:fixed;inset:0;z-index:100;background:var(--bg);display:flex;overscroll-behavior:contain}
@@ -532,7 +533,7 @@ footer{margin-top:48px}
 </div>
 </main>
 
-<footer><div class="wrap"><span>GameUp · feito para jogar no navegador</span><span>Seu progresso fica salvo neste aparelho.</span></div></footer>
+<footer><div class="wrap"><span>GameUp · feito para jogar no navegador</span><nav class="flinks" aria-label="Páginas institucionais"><a href="/sobre">Sobre Nós</a><a href="/contato">Contato</a><a href="/politica-de-privacidade">Política de Privacidade</a><a href="/termos-de-uso">Termos de Uso</a><a href="/politica-de-cookies">Política de Cookies</a></nav><span>Seu progresso fica salvo neste aparelho.</span></div></footer>
 </div>
 </div>
 
@@ -7547,6 +7548,12 @@ Fechar jogo=>Close game
 Tela cheia=>Fullscreen
 Seu navegador não permite tela cheia aqui. O jogo já ocupa toda a tela.=>Your browser doesn't allow fullscreen here. The game already fills the screen.
 Seu progresso fica salvo neste aparelho.=>Your progress is saved on this device.
+Sobre Nós=>About Us
+Contato=>Contact
+Política de Privacidade=>Privacy Policy
+Termos de Uso=>Terms of Use
+Política de Cookies=>Cookie Policy
+Páginas institucionais=>Institutional pages
 GameUp · feito para jogar no navegador=>GameUp · made to play in the browser
 Portal de minijogos=>Mini-game portal
 Moedas=>Coins
